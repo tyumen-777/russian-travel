@@ -1,0 +1,35 @@
+.place__paragraph {
+  max-width: 484px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+    margin-bottom: 27px;
+  }
+  .place__paragraph:nth-of-type(2) {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    max-width: 352px;
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+  .place__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

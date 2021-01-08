@@ -1,0 +1,15 @@
+.footer__copyright {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-align: right;
+}
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    text-align: left;
+    line-height: 14px;
+    padding-bottom: 24px;
+  }
+}
