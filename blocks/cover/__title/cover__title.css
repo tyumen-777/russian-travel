@@ -6,8 +6,7 @@
   /* or 106% */
   text-align: center;
   margin: 0;
-  text-decoration: none;
-  color: white;
+
 }
 
 @media screen and (max-width: 320px) {
