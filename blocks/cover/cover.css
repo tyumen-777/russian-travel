@@ -10,7 +10,7 @@
     margin-top: 90px;
   }
 }
-@media screen  and (max-width: 320px){
+@media screen  and (max-width: 425px){
   .cover {
     margin-top: 66px;
   }
