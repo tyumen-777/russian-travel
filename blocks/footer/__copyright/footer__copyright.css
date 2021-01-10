@@ -3,7 +3,7 @@
   font-size: 14px;
   line-height: 16px;
   /* identical to box height, or 114% */
-
+  margin-bottom: 24px;
   text-align: right;
 }
 @media screen and (max-width: 425px) {

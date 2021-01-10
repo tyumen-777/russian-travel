@@ -1,5 +1,8 @@
 .footer__columns {
   margin-bottom: 24px;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
 }
 
 @media screen and (max-width: 425px) {
