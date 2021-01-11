@@ -1,5 +1,5 @@
 .cover__background {
-  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)) , url("../../../images/cover-trains.jpg");
+  background-image: url("../../../images/cover-trains.jpg");
   background-size: cover;
   height: 740px;
   display: flex;
@@ -12,9 +12,8 @@
   position: relative;
 
 }
-.cover__background:hover {
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)) , url("../../../images/cover-trains.jpg");
-  transition: opacity 1s linear;
+.cover__background:hover:before {
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 1024px) {
@@ -32,7 +31,12 @@
     max-height: 200px;
   }
 }
-.overlay {
-  background-color: #2A2C2F;
-  opacity: 50%;
+.cover__background:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index:1;
+  opacity: 0.2;
+  background: #2A2C2F;
 }

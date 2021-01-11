@@ -6,6 +6,7 @@
   /* or 122% */
   margin-top: 32px;
   text-align: center;
+  z-index: 2;
 }
 
 @media screen and (max-width: 425px) {
