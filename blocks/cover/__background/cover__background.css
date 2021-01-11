@@ -1,5 +1,5 @@
 .cover__background {
-  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)) , url("../../../images/cover-trains.jpg");
+  background-image: url("../../../images/cover-trains.jpg");
   background-size: cover;
   height: 740px;
   display: flex;
@@ -9,6 +9,8 @@
   text-decoration: none;
   color: white;
   background-position: center;
+  position: relative;
+
 }
 .cover__background:hover {
   background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)) , url("../../../images/cover-trains.jpg");
@@ -27,6 +29,12 @@
 }
 @media screen and (max-width: 425px) {
   .cover__background {
-    max-height: 320px;
+    max-height: 200px;
   }
+}
+.overlay {
+  position: relative;
+  background: rgba(42, 44, 47, 1);
+  left: 0;
+  top: 0;
 }
